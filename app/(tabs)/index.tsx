@@ -67,6 +67,15 @@ export default function Index() {
                     poster_path={item.poster_path}
                     vote_average={item.vote_average}
                     release_date={item.release_date}
+                    adult={false}
+                    backdrop_path={''}
+                    genre_ids={[]}
+                    original_language={''}
+                    original_title={''}
+                    overview={''}
+                    popularity={0}
+                    video={false}
+                    vote_count={0}
                   />
                 )}
                 keyExtractor={(item) => item.id.toString()}
